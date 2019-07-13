@@ -1,3 +1,3 @@
-A Python script to export all current opened URLS from Safari and saves the links in a markdown file
+1 Python script to save all current tabs into a markdown file
 
-Requires appscript which can be installed with "pip install appscript"
+1 Python script to open all links from the markdown file
