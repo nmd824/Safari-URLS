@@ -1,10 +1,13 @@
 from appscript import app
 import easygui
 
+# TODO: Extract tab name
+# TODO: If file exists, append
+
 
 # Export all URLS to a markdown file
 def export(urls_list):
-    filename = easygui.enterbox('File name:')
+    filename = easygui.enterbox('File name')
     filename = filename + '.md'
     file = open(filename, 'w')
     for i in urls_list:
